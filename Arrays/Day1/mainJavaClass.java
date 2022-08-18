@@ -1,7 +1,7 @@
-package Arrays;
+package Arrays.Day1;
 
-import static Arrays.sumOfArray.*;
-import static Arrays.reverseArray.*;
+import static Arrays.Day1.sumOfArray.*;
+import static Arrays.Day1.reverseArray.*;
 public class mainJavaClass {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5};
