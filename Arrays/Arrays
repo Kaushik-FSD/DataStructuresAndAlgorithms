@@ -1,0 +1,5 @@
+1. Arrays are used to store multiple data types into a single data type.
+2. Declaration:
+    int arrayName = new int[array size];
+    eg: int arr = new int[10];
+3. Array is 0 based indexed data structure.
