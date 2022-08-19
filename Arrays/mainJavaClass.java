@@ -11,7 +11,8 @@ import static Arrays.Day1.findUniqueEle.*;
 
 public class mainJavaClass {
     public static void main(String[] args) {
-        int arr[] = {5,1,2,3,4,2};
+//        int arr[] = {5,1,2,3,4,2};
+        int arr[] = {1,2,3,4,5,6,7};
         int n = arr.length;
 //        int sum = sumOfArray(arr, arr.length);
 //        System.out.println("The sum of array is: " + sum);
@@ -28,8 +29,11 @@ public class mainJavaClass {
 //        int dupNumber = Arrays.Day2.duplicateInArray.dupInArray(arr, n);
 //        System.out.println(dupNumber);
 
-        ArrayList<ArrayList<Integer>> result = Arrays.Day2.threeSum.findTripletSum(arr, n, 8);
-        printArrayList(result, result.size());
+//        ArrayList<ArrayList<Integer>> result = Arrays.Day2.threeSum.findTripletSum(arr, n, 8);
+//        printArrayList(result, result.size());
+
+        int binSearch = Arrays.Day2.binarySearchAlgorithm.binarySearch(arr, n, 5);
+        System.out.println("The element is found at index: " + binSearch);
     }
 
     private static void printArr(int arr[], int n){
