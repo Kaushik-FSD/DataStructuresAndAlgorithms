@@ -1,0 +1,15 @@
+time complexity:
+O(1) < O(log n) < O(n) < O(n log n) < O(n * n) < O(n^3) < O(2^n) < O(n!)
+
+DIFFERENT RANGES OF DIFFERENT TIME COMPLEXITY:
+
+TC         Range(max)
+----------------------------
+O(n!) = <= [10..11]
+O(2^n * n^2) = < [15..18]
+O(n^4) = < 100
+O(n^3) = < 400
+O(n^2 * log n) = < 2000
+O(n^2) = < 10^4
+O(n log n) = < 10^6
+O(n), O(log n) = < 10^8
