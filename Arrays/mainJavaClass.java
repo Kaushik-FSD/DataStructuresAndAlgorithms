@@ -2,6 +2,9 @@ package Arrays;
 
 import Arrays.Day1.swapAlternate;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 import static Arrays.Day1.sumOfArray.*;
 import static Arrays.Day1.reverseArray.*;
 import static Arrays.Day1.findUniqueEle.*;
@@ -22,13 +25,24 @@ public class mainJavaClass {
 //        int findUnique = findUniqueElements(arr, n);
 //        System.out.println("The unique element is: " + findUnique);
 
-        int dupNumber = Arrays.Day2.duplicateInArray.dupInArray(arr, n);
-        System.out.println(dupNumber);
+//        int dupNumber = Arrays.Day2.duplicateInArray.dupInArray(arr, n);
+//        System.out.println(dupNumber);
+
+        ArrayList<ArrayList<Integer>> result = Arrays.Day2.threeSum.findTripletSum(arr, n, 8);
+        printArrayList(result, result.size());
     }
 
     private static void printArr(int arr[], int n){
+        System.out.println("Printing the Array: ");
         for(int i = 0; i<n; i++){
             System.out.print(arr[i] + " ");
+        }
+    }
+
+    private static void printArrayList(ArrayList<ArrayList<Integer>> arr, int size){
+        System.out.println("the sum of Triples are: ");
+        for(ArrayList<Integer> ele: arr){
+            System.out.println(ele);
         }
     }
 }
