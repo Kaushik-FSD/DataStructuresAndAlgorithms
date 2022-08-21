@@ -1,4 +1,4 @@
-package Arrays.Day2;
+package Arrays.Day3;
 
 public class searchInRotatedSortedArray {
     static int search(int[] nums, int target) {

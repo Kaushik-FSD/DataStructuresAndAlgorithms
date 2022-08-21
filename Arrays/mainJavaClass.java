@@ -32,8 +32,10 @@ public class mainJavaClass {
 //        ArrayList<ArrayList<Integer>> result = Arrays.Day2.threeSum.findTripletSum(arr, n, 8);
 //        printArrayList(result, result.size());
 
-        int binSearch = Arrays.Day2.binarySearchAlgorithm.binarySearch(arr, n, 5);
-        System.out.println("The element is found at index: " + binSearch);
+//        int binSearch = Arrays.Day2.binarySearchAlgorithm.binarySearch(arr, n, 5);
+//        System.out.println("The element is found at index: " + binSearch);
+
+        System.out.println("Square root of a number is: " + Arrays.Day4.findSqrtOfNumber.mySqrt(8));
     }
 
     private static void printArr(int arr[], int n){
