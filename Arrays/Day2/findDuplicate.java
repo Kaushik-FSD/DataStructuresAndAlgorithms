@@ -7,7 +7,7 @@ public class findDuplicate {
         List<Integer> ans = new ArrayList<Integer>();
 
         //Method 1: O(n) -> space and time
-        // HashMap<Integer, Integer> hm = new HashMap
+        // HashMap<Integer, Integer> hm = new HashMap();
         // for(int i:nums){
         //     hm.put(i, hm.getOrDefault(i, 0) + 1);
         // }

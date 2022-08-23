@@ -38,9 +38,10 @@ public class mainJavaClass {
 //        System.out.println("Square root of a number is: " + Arrays.Day4.findSqrtOfNumber.mySqrt(8));
 
 //        Arrays.Day5.selectionSort.selectionSortAlgo(arr, n);
-//        printArr(arr, n);
+        printArr(arr, n);
 //        Arrays.Day5.bubbleSort.bubbleSortAlgo(arr, n);
-        Arrays.Day5.insertionSort.insertionSortAlgo(arr, n);
+//        Arrays.Day5.insertionSort.insertionSortAlgo(arr, n);
+        Arrays.Day6.reverseArray.reverseArray(arr, n);
         printArr(arr, n);
     }
 
