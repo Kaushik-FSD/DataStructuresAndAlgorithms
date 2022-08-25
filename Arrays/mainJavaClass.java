@@ -41,12 +41,13 @@ public class mainJavaClass {
         printArr(arr, n);
 //        Arrays.Day5.bubbleSort.bubbleSortAlgo(arr, n);
 //        Arrays.Day5.insertionSort.insertionSortAlgo(arr, n);
-        Arrays.Day6.reverseArray.reverseArray(arr, n);
+//        Arrays.Day6.reverseArray.reverseArray(arr, n);
+        Arrays.Day7.rotateArray.rotate(arr, 2);
         printArr(arr, n);
     }
 
     private static void printArr(int arr[], int n){
-        System.out.println("Printing the Array: ");
+        System.out.println("\nPrinting the Array: ");
         for(int i = 0; i<n; i++){
             System.out.print(arr[i] + " ");
         }
