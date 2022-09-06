@@ -13,3 +13,19 @@ O(n^2 * log n) = < 2000
 O(n^2) = < 10^4
 O(n log n) = < 10^6
 O(n), O(log n) = < 10^8
+
+
+
+GCD:
+------
+
+gcd(a,b) = gcd(a-b,b);
+OR
+gcd(a,b) = gcd(a%b, b);
+
+NOTE:
+------
+
+a * b = LCM(a,b) * GCD(a,b)
+
+
